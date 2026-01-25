@@ -38,7 +38,9 @@ export default function Contact() {
             Open to Opportunities
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Looking for internships or full-time roles where I can learn, contribute, and grow as a developer. Feel free to reach out via the links below.
+            I'm actively looking for paid internships and entry-level full stack roles.
+            If you're hiring or would like to discuss an opportunity, feel free to reach
+            out through the links below.
           </p>
         </div>
 

@@ -13,7 +13,15 @@ const skills = {
     "Node.js",
     "Express",
     "MongoDB",
-    "Razorpay Integration",
+    "Payments (Razorpay)",
+  ],
+
+  "programming & concepts": [
+    "C++",
+    "Python",
+    "REST APIs",
+    "Authentication (JWT)",
+    "Role-Based Access Control",
   ],
 
   tools: [
@@ -22,16 +30,7 @@ const skills = {
     "MongoDB Compass",
     "MongoDB Atlas (Clusters)",
     "Postman",
-    "Vercel",
-    "Render",
-  ],
-
-  other: [
-    "AI Integration",
-    "Chatbot Development",
-    "C++ Programming",
-    "Python Programming",
-    "Graphic Designing",
+    "Deployment: Vercel, Render",
   ],
 };
 

@@ -14,9 +14,13 @@ export default function About() {
 
         <div className="grid gap-8 lg:grid-cols-3">
           <div className="lg:col-span-2 space-y-4 flex items-center">
-            <p className="text-base text-muted-foreground leading-relaxed">
-              {about.description}
-            </p>
+            <div className="space-y-4">
+              {about.description.split('\n\n').map((paragraph, index) => (
+                <p key={index} className="text-base text-muted-foreground leading-relaxed">
+                  {paragraph}
+                </p>
+              ))}
+            </div>
           </div>
 
           <Card className="border-border/70 bg-card/60 backdrop-blur h-fit">

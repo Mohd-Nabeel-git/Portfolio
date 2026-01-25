@@ -45,13 +45,13 @@ export default function Hero() {
               </h1>
 
               <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-sm sm:text-base md:text-lg text-muted-foreground">
-                <span className="font-medium">Full Stack Web Developer</span>
+                <span className="font-medium">Full Stack Web Developer (MERN | Next.js)</span>
                 <Separator orientation="vertical" className="h-4 sm:h-5 hidden xs:block" />
-                <span>Based in India</span>
+                <span>Final-year CSE Student</span>
               </div>
 
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
-                I design and build clean, accessible web experiences with a focus on performance, clarity, and modern tooling.
+                I'm a final-year Computer Science student with real internship experience building production-ready web applications. I specialize in authentication, payments, and real-time features, bringing both academic knowledge and hands-on experience to every project.
               </p>
             </div>
 

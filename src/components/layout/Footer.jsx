@@ -17,7 +17,8 @@ export default function Footer() {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p className="text-sm font-semibold text-foreground">Mohd Nabeel</p>
-            <p className="text-sm text-muted-foreground">Building clean, modern web experiences.</p>
+            <p className="text-sm text-muted-foreground">Building scalable, production-ready web applications.
+</p>
           </div>
 
           <Button

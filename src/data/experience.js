@@ -4,7 +4,7 @@ const experience = [
     company: "GNCIPL",
     duration: "July 2025 – August 2025",
     description:
-      "Delivered multiple MERN-based mini-projects including a Kanban Board, Employee Management System, and Expense API. Implemented authentication, real-time features using Socket.io, optimized REST APIs, and deployed live applications while meeting strict weekly deadlines.",
+      "• Delivered multiple MERN-based mini-projects including a DevinOut, Employee Management System, and Kanban Board\n• Implemented JWT-based authentication, role-based access control, and real-time features using Socket.io\n• Built and deployed optimized REST APIs while meeting strict weekly deadlines in a remote team environment",
   },
 
   {
@@ -12,7 +12,7 @@ const experience = [
     company: "NovaNectar Services Pvt. Ltd.",
     duration: "Aug 2024 – Nov 2024",
     description:
-      "Built production-ready applications including a landing page, Patreon clone, Artistly, and a blog editor using React and Next.js. Designed responsive, mobile-first UIs, integrated Razorpay payments, and optimized applications for performance and cross-browser compatibility.",
+      "• Built production-ready applications using React and Next.js including a landing page, Patreon clone, Artistly, and a blog editor\n• Designed responsive, mobile-first UIs and integrated secure Razorpay payment workflows\n• Optimized applications for performance, cross-browser compatibility, and maintainable code structure",
   },
 ];
 

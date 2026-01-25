@@ -58,9 +58,11 @@ export default function Experience() {
                 <Separator />
 
                 <CardContent className="pt-4">
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {item.description}
-                  </p>
+                  <div className="text-sm text-muted-foreground leading-relaxed space-y-1.5">
+                    {item.description.split('\n').map((line, i) => (
+                      <p key={i}>{line}</p>
+                    ))}
+                  </div>
                 </CardContent>
               </Card>
             );
