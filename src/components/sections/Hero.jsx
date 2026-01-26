@@ -101,7 +101,7 @@ export default function Hero() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-2xl opacity-20"></div>
               <img
-                src="/images/pfp.jpeg"
+                src="/images/me.jpeg"
                 alt="Mohd Nabeel"
                 className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-2 border-border/70 shadow-2xl"
               />
