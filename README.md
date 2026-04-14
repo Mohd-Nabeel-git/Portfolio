@@ -1,23 +1,42 @@
-# Portfolio
+# 🌐 Portfolio — QA Automation / SDET Focus
 
-Personal portfolio website showcasing my projects, skills, and experience as a Full Stack Web Developer.
+Personal portfolio website showcasing my **QA Automation (SDET) projects, testing skills, and real-world experience**, along with a strong full-stack development background.
 
 ## 🚀 Live Demo
 https://portfolio-xi-ochre-42.vercel.app/
 
+---
+
+## 🧠 Focus
+
+This portfolio highlights:
+
+- **Playwright Automation Framework (TypeScript)**
+- End-to-end testing and API validation
+- Real-world systems tested (MERN applications)
+- CI/CD integration and scalable test design
+- Development + testing mindset combined
+
+---
+
 ## 🛠 Tech Stack
-- React
-- Vite
+
+- React (Vite)
 - Tailwind CSS
 - shadcn/ui
 - lucide-react
 
+---
+
 ## ✨ Features
-- Single-page portfolio with smooth scrolling
-- Dark-mode focused minimal design
+
+- Clean, minimal UI with dark-mode focus
 - Fully responsive across devices
-- Data-driven sections (Projects, Skills, Experience)
-- Clean, accessible, and modern UI
+- Structured sections for **Automation Projects & Systems Tested**
+- Recruiter-friendly layout highlighting **testing and quality engineering skills**
+- Smooth navigation and modern UX
+
+---
 
 ## 📂 Getting Started (Local Setup)
 
