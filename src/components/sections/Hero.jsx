@@ -26,10 +26,10 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center px-4 py-16 md:py-24 bg-background"
+      className="min-h-screen flex items-center px-4 py-16 sm:py-20 md:py-24 bg-background"
     >
       <div className="max-w-6xl mx-auto w-full">
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
+        <div className="grid gap-8 sm:gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           {/* Left Column: Text Content */}
           <div className="flex flex-col gap-6 order-2 lg:order-1">
             <div className="flex flex-col gap-4">
@@ -37,35 +37,41 @@ export default function Hero() {
                 Available for opportunities
               </Badge>
 
-              <h1 className="text-3xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl font-bold">
+              <h1 className="text-2xl leading-tight sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">
                 <span className="text-muted-foreground">Hi, I'm </span>
                 <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
                   Mohd Nabeel
                 </span>
               </h1>
 
-              <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-sm sm:text-base md:text-lg text-muted-foreground">
-                <span className="font-medium">Full Stack Web Developer (MERN | Next.js)</span>
+              <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-xs sm:text-sm md:text-base text-muted-foreground">
+                <span className="font-semibold text-sm sm:text-base md:text-lg">QA Automation Engineer | Playwright | TypeScript</span>
                 <Separator orientation="vertical" className="h-4 sm:h-5 hidden xs:block" />
-                <span>Final-year CSE Student</span>
+                <span>Final-year CSE Student | Strong Full-Stack (MERN) Background</span>
               </div>
 
-              <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
-                I'm a final-year Computer Science student with real internship experience building production-ready web applications. I specialize in authentication, payments, and real-time features, bringing both academic knowledge and hands-on experience to every project.
+              <p className="text-sm md:text-base text-muted-foreground leading-relaxed max-w-xl text-left">
+                Experienced in building scalable Playwright (TypeScript) automation frameworks with strong focus on reliability, coverage, and maintainability.
+
+                Hands-on experience in end-to-end testing and API validation, with CI/CD integration using GitHub Actions.
+
+                Designed 20+ automated test cases covering critical user flows with robust edge-case handling.
+
+                Leverages full-stack (MERN) knowledge to deeply understand system behavior, identify defects early, and ensure production-grade quality.
               </p>
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-3 w-full">
-              <Button size="lg" onClick={() => scrollTo("projects")} className="group w-full sm:w-auto">
+            <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 w-full">
+              <Button size="sm" onClick={() => scrollTo("projects")} className="group w-full sm:w-auto h-9 sm:h-10 text-xs sm:text-sm">
                 View Projects
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
-              <Button size="lg" variant="outline" onClick={() => scrollTo("contact")} className="w-full sm:w-auto">
+              <Button size="sm" variant="outline" onClick={() => scrollTo("contact")} className="w-full sm:w-auto h-9 sm:h-10 text-xs sm:text-sm">
                 Contact Me
               </Button>
               <a href="/Mohd_Nabeel_Resume.pdf" download className="w-full sm:w-auto">
-                <Button size="lg" variant="ghost" className="gap-2 w-full sm:w-auto">
+                <Button size="sm" variant="ghost" className="gap-2 w-full sm:w-auto h-9 sm:h-10 text-xs sm:text-sm">
                   <Download className="h-4 w-4" />
                   Resume
                 </Button>
@@ -103,7 +109,7 @@ export default function Hero() {
               <img
                 src="/images/me.jpeg"
                 alt="Mohd Nabeel"
-                className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-2 border-border/70 shadow-2xl"
+                className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover object-[center_18%] border-2 border-border/70 shadow-2xl"
               />
             </div>
           </div>

@@ -4,7 +4,8 @@ const experience = [
     company: "GNCIPL",
     duration: "July 2025 – August 2025",
     description:
-      "• Delivered multiple MERN-based mini-projects including a DevinOut, Employee Management System, and Kanban Board\n• Implemented JWT-based authentication, role-based access control, and real-time features using Socket.io\n• Built and deployed optimized REST APIs while meeting strict weekly deadlines in a remote team environment",
+      "• Developed MERN stack applications with a strong focus on application reliability, testability, and stable user workflows.\n• Executed functional and exploratory testing to identify UI and backend defects across authentication, payments, and real-time workflows.\n• Validated end-to-end user flows and REST API integrations, ensuring data consistency and correct system behavior.\n• Tested DevinOut platform testing, improving overall application stability and early defect detection.",
+    skills: ["MERN", "E2E Testing", "API Validation", "Exploratory Testing"],
   },
 
   {
@@ -12,7 +13,8 @@ const experience = [
     company: "NovaNectar Services Pvt. Ltd.",
     duration: "Aug 2024 – Nov 2024",
     description:
-      "• Built production-ready applications using React and Next.js including a landing page, Patreon clone, Artistly, and a blog editor\n• Designed responsive, mobile-first UIs and integrated secure Razorpay payment workflows\n• Optimized applications for performance, cross-browser compatibility, and maintainable code structure",
+      "• Built React and Next.js applications including Employee Management System and Kanban Board with focus on structured and maintainable code.\n• Performed functional, UI, and exploratory testing to identify and resolve UI inconsistencies and API-related issues.\n• Verified REST API responses and ensured reliable frontend–backend integration across multiple features.\n• Conducted cross-browser testing to maintain consistent behavior and usability across different environments.",
+    skills: ["UI Testing", "Functional Testing", "API Testing", "Cross-Browser Testing"],
   },
 ];
 

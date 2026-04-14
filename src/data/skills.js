@@ -1,36 +1,47 @@
 const skills = {
-  frontend: [
-    "HTML",
-    "CSS",
+  "Test Automation": [
+    "Playwright (TypeScript)",
+    "Cucumber (BDD)",
+    "End-to-End Testing (E2E)",
+    "Regression, Smoke & Sanity Testing"
+  ],
+
+  "Framework & Design": [
+    "Page Object Model (POM)",
+    "Fixtures",
+    "Data-Driven Testing",
+    "Parallel Execution",
+    "Storage State Handling",
+    "Scalable Test Architectures"
+  ],
+
+  "API Testing": [
+    "Playwright APIRequestContext",
+    "REST API Testing",
+    "Negative Testing",
+    "Postman"
+  ],
+
+  "CI/CD & Reporting": [
+    "GitHub Actions",
+    "Allure Reports",
+    "Playwright Trace Viewer",
+    "Screenshots & Video Debugging"
+  ],
+
+  "Languages": [
     "JavaScript",
-    "React",
-    "Next.js",
-    "Tailwind CSS",
-    "shadcn/ui",
+    "TypeScript",
+    "C++"
   ],
 
-  backend: [
-    "Node.js",
-    "Express",
+  "Tools & Development": [
+    "Git & GitHub",
+    "Chrome DevTools",
     "MongoDB",
-    "Payments (Razorpay)",
-  ],
-
-  "programming & concepts": [
-    "C++",
-    "Python",
-    "REST APIs",
-    "Authentication (JWT)",
-    "Role-Based Access Control",
-  ],
-
-  tools: [
-    "Git",
-    "GitHub",
-    "MongoDB Compass",
-    "MongoDB Atlas (Clusters)",
-    "Postman",
-    "Deployment: Vercel, Render",
+    "Node.js",
+    "Express.js",
+    "React.js / Next.js"
   ],
 };
 

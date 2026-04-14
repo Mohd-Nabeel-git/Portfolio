@@ -38,19 +38,19 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 w-full z-50 border-b border-border bg-background/80 backdrop-blur-sm">
-      <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
+      <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 py-2 md:py-3">
         {/* Logo */}
-        <a href="#hero" className="font-bold text-lg hover:opacity-80 transition-opacity">
+        <a href="#hero" className="font-bold text-base md:text-lg hover:opacity-80 transition-opacity">
           Nabeel
         </a>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6 lg:gap-8">
           {SECTIONS.map(({ id, label }) => (
             <button
               key={id}
               onClick={() => handleNavClick(id)}
-              className={`text-sm font-medium transition-colors ${
+              className={`text-xs md:text-sm font-medium transition-colors ${
                 activeSection === id
                   ? 'text-foreground border-b-2 border-primary pb-1'
                   : 'text-muted-foreground hover:text-foreground'
@@ -62,10 +62,10 @@ export default function Navbar() {
         </div>
 
         {/* Right Side: Resume + Mobile Menu */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 md:gap-3">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button size="sm" variant="outline" className="gap-1">
+              <Button size="sm" variant="outline" className="gap-1 text-xs md:text-sm">
                 Resume
                 <ChevronDown className="h-3 w-3" />
               </Button>

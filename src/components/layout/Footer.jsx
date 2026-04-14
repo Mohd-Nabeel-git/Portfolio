@@ -12,13 +12,13 @@ export default function Footer() {
   };
 
   return (
-    <footer className="border-t border-border/80 bg-background/80 backdrop-blur py-10 px-4">
-      <div className="max-w-5xl mx-auto space-y-6">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="text-sm font-semibold text-foreground">Mohd Nabeel</p>
-            <p className="text-sm text-muted-foreground">Building scalable, production-ready web applications.
-</p>
+    <footer className="border-t border-border/80 bg-background/80 backdrop-blur py-6 sm:py-8 md:py-10 px-4">
+      <div className="max-w-5xl mx-auto space-y-4 sm:space-y-6">
+        <div className="flex flex-col gap-3 sm:gap-4 sm:flex-row sm:items-start sm:justify-between">
+          <div className="flex-1">
+            <p className="text-xs sm:text-sm font-semibold text-foreground">Mohd Nabeel</p>
+            <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">Building reliable, scalable software with a focus on quality and test automation.
+            </p>
           </div>
 
           <Button
@@ -26,10 +26,11 @@ export default function Footer() {
             size="sm"
             onClick={handleBackToTop}
             aria-label="Back to top"
-            className="gap-2"
+            className="gap-1.5 sm:gap-2 text-xs sm:text-sm h-8 sm:h-10 w-full sm:w-auto"
           >
-            <ArrowUp className="h-4 w-4" />
-            Back to Top
+            <ArrowUp className="h-3.5 sm:h-4 w-3.5 sm:w-4" />
+            <span className="hidden sm:inline">Back to Top</span>
+            <span className="sm:hidden">Top</span>
           </Button>
         </div>
 
@@ -37,7 +38,8 @@ export default function Footer() {
 
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-xs text-muted-foreground">
           <span>© {year} Mohd Nabeel. All rights reserved.</span>
-          <span>Made with React, Tailwind, and shadcn/ui.</span>
+          <span className="hidden sm:inline">Made with React, Tailwind, and shadcn/ui.</span>
+          <span className="sm:hidden text-[11px]">React | Tailwind | shadcn</span>
         </div>
       </div>
     </footer>
